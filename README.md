@@ -1,27 +1,36 @@
 # TestCase
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.0-rc.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.15.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+`Задача:`
 
-## Build
+используя фреймворк Angular 9 сверстать веб-приложение для просмотра текстовых заметок.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Интерфейс приложения должен состоять из трех компонентов:
 
-## Running unit tests
+-Верхняя шапка с названием;
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+-Боковое меню со списком заметок;
 
-## Running end-to-end tests
+-Область для просмотра выбранной заметки;
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Реализуете хранение предустановленных заметок в виде массива объектов, а не в HTML;
 
-## Further help
+Реализуете возможность добавления заметок;
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Реализуете возможность доступа к каждой заметке по прямой ссылке.
+
+Список заметок должен быть предустановлен вами, каждая заметка имеет заголовок и текст. 
+
+В боковом меню выводятся заголовки, при выборе одного из них - справа выводится текст выбранной заметки. 
+
+Интерфейс должен растягиваться на всё окно браузера, при этом шапка имеет фиксированную высоту, а боковое меню - фиксированную ширину.
+
+На проверку принимается папка с Angular-проектом, но без(!) папки node_modules внутри.
+
+[docs.google.com](https://docs.google.com/document/d/19jW10pFBajMRhaDTOWFjDV72sWymFHAHDhjmkPqQ_LQ/edit)
+![This is an image](src/assets/image1.png)
+

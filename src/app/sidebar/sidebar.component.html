@@ -1,0 +1,10 @@
+<div class="sidebar">
+  <div class="sidebar__card"
+       *ngFor="let post of posts$ | async"
+       [routerLink]="[post.id]"
+       routerLinkActive="sidebar__card_active">
+    <h1>{{post.title}}</h1>
+  </div>
+</div>
+
+

@@ -1,0 +1,41 @@
+.card {
+  padding: 10px;
+  margin: 10px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 0.2rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  &.ng-invalid.ng-touched {
+    border: 1px solid red;
+  }
+
+  &.ng-valid.ng-touched {
+    border: 1px solid green;
+  }
+}
+
+.form-control {
+  display: block;
+  margin-top: 0.3rem;
+  margin-bottom: .5rem;
+
+  label {
+    display: block;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+  }
+
+  input {
+    margin-bottom: 0;
+  }
+
+  .validation {
+    color: red;
+  }
+}

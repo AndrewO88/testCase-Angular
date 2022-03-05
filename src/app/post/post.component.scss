@@ -1,0 +1,16 @@
+.post {
+  height: 100%;
+  padding: 30px;
+}
+.post__title {
+  color: #3365fd;
+  font-size: 50px;
+}
+.post__text {
+  font-size: 30px;
+  .custom {
+    margin-top: 20px;
+    text-align: justify;
+  }
+}
+

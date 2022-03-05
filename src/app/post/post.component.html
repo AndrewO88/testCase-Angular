@@ -1,0 +1,7 @@
+<ng-container *ngIf="post$ | async as post">
+  <div class="post">
+    <h1 class="post__title">{{post.title}}</h1>
+    <span class="post__text" [innerHTML]="post.text | paragraph"></span>
+  </div>
+</ng-container>
+

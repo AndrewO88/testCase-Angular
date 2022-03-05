@@ -1,0 +1,23 @@
+.sidebar {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.sidebar__card {
+  display: flex;
+  align-items: center;
+  background: white;
+  margin: 10px;
+  padding: 20px;
+  border: #ccc 1px dotted;
+  height: 100px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.sidebar__card_active {
+  background: #3365fd;
+  color: white;
+}
