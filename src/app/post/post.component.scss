@@ -1,6 +1,7 @@
 .post {
   height: 100%;
   padding: 30px;
+  overflow: auto;
 }
 .post__title {
   color: #3365fd;
@@ -8,9 +9,5 @@
 }
 .post__text {
   font-size: 30px;
-  .custom {
-    margin-top: 20px;
-    text-align: justify;
-  }
 }
 

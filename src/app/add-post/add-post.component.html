@@ -17,9 +17,7 @@
 
   <div class="form-control">
     <label>Текст</label>
-<!--    <input type="text" placeholder="Введите текст.." formControlName="text">-->
-    <textarea placeholder="Введите текст.." formControlName="text"></textarea>
-<!--    <input type="text" placeholder="Введите текст.." formControlName="text">-->
+    <textarea  placeholder="Введите текст.." formControlName="text"></textarea>
     <div
       *ngIf="form.get('text').invalid && form.get('text').touched"
       class="validation"
@@ -29,5 +27,5 @@
       </small>
     </div>
   </div>
-  <button class="form-control__button btn" type="submit" [disabled]="form.invalid || form.pending">Отправить</button>
+  <button class="form-control__button btn" type="submit" [disabled]="form.invalid || form.pending">Добавить</button>
 </form>
